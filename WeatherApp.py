@@ -10,7 +10,6 @@ def get_info(params):
 
     if response.status_code == 200:
         data = response.json()
-        print("successful")
         return data
     else:
         print(f"Failed to retrieve data {response.status_code}")
@@ -30,9 +29,7 @@ def main():
     location = state + " " + city
     latitude, longitude = get_coordinates(location)
 
-    if latitude and longitude:
-        print(f"The coordinates for {city} are: Latitude {latitude}, Longitude {longitude}")
-    else:
+    if not latitude or not longitude:
         print(f"Could not find coordinates for {city}")
         return
 
@@ -48,8 +45,10 @@ def main():
     data = get_info(params)
     if not data:
         return
-    
-    print(f"The current temperature for {city}, {state} is {data['hourly']['temperature_2m']} {data['hourly_units']['temperature_2m']}")
+    current_day = datetime.datetime.now().strftime("%Y-%m-%d")
+    current_time = datetime.datetime.now().strftime("%H:%M")
+    print(f"The temperature for {city}, {state} on {current_day} at {current_time} is:" \
+          f"\n{data['hourly']['temperature_2m']} {data['hourly_units']['temperature_2m']}")
 
 if __name__ == "__main__":
     main()
