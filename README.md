@@ -8,3 +8,11 @@
 - Displays the current temperature in fahrenheit for EST timezone
 
 [<img width="356" alt="image" src="https://github.com/user-attachments/assets/bb941b1e-8603-4b9e-bdc7-188a5d490fd1" />](https://github.com/maxwelllokshin1/30-Intermediate-Projects/blob/main/WeatherApp.py)
+
+## Project 2 - Weather Web Scraper
+- Gathers webpage and parses it to HTML to lxml
+- Next gathers necessary data
+- Uses [timeanddate](https://www.timeanddate.com/weather/) website
+- Prints the information into readable text
+
+[<img width="196" alt="image" src="https://github.com/user-attachments/assets/5737262e-c6ee-47d4-8d43-d70cd6fa6286" />](https://github.com/maxwelllokshin1/30-Intermediate-Projects/blob/main/WeatherScraper.py)
