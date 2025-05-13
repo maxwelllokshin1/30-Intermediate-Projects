@@ -13,9 +13,10 @@
 - Gathers webpage and parses it to HTML to lxml
 - Next gathers necessary data
 - Uses [timeanddate](https://www.timeanddate.com/weather/) website
+- Uses built-in search function of website to locate city/state/country
 - Prints the information into readable text
 
-[<img width="196" alt="image" src="https://github.com/user-attachments/assets/5737262e-c6ee-47d4-8d43-d70cd6fa6286" />](https://github.com/maxwelllokshin1/30-Intermediate-Projects/blob/main/WeatherScraper.py)
+[<img width="257" alt="image" src="https://github.com/user-attachments/assets/1f3ed8e8-af1c-4d9b-9ee5-6165016e5bc2" />](https://github.com/maxwelllokshin1/30-Intermediate-Projects/blob/main/WeatherScraper.py)
 
 ## Project 3 - News Scraper
 - Grabs the first 10 news articles from [CNN World](https://www.cnn.com/world)
