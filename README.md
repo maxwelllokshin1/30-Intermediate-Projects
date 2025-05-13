@@ -16,3 +16,10 @@
 - Prints the information into readable text
 
 [<img width="196" alt="image" src="https://github.com/user-attachments/assets/5737262e-c6ee-47d4-8d43-d70cd6fa6286" />](https://github.com/maxwelllokshin1/30-Intermediate-Projects/blob/main/WeatherScraper.py)
+
+## Project 3 - News Scraper
+- Grabs the first 10 news articles from [CNN World](https://www.cnn.com/world)
+- Gives the Headline as well as the link to the story
+- Uses a Web scraper to gather this information
+
+[<img width="607" alt="image" src="https://github.com/user-attachments/assets/4a363ea6-e8ee-4f0e-9a8b-2a0ec1dfc8ab" />](https://github.com/maxwelllokshin1/30-Intermediate-Projects/blob/main/NewsScraper.py)
