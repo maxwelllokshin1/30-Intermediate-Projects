@@ -24,3 +24,10 @@
 - Uses a Web scraper to gather this information
 
 [<img width="607" alt="image" src="https://github.com/user-attachments/assets/4a363ea6-e8ee-4f0e-9a8b-2a0ec1dfc8ab" />](https://github.com/maxwelllokshin1/30-Intermediate-Projects/blob/main/NewsScraper.py)
+
+## Project 4 - Stock Scraper
+- Prompts with companies in which the user can search a company they want information for
+- Then the program gives back the Name of the company with the ticker and its other information
+- Scrapes [Yahoo Finance](https://finance.yahoo.com/) to get information as well as using search function to query the specific searched items
+
+[<img width="308" alt="image" src="https://github.com/user-attachments/assets/ba94d0bf-af25-47e4-8920-2cd8d6ca5796" />](https://github.com/maxwelllokshin1/30-Intermediate-Projects/blob/main/StockScraper.py)
